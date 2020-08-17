@@ -27,6 +27,7 @@ const checkAuth = async (req, res, next) => {
 
 router.use(checkAuth);
 
+
 router
   .route("/")
   .get((req, res) => {
